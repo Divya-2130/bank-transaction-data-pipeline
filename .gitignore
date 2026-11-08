@@ -8,3 +8,9 @@ __pycache__/
 reports/reconciliation_*.json
 sample_output/*.db
 sample_output/blocked_transactions.csv
+
+# Generated local datasets
+/data/large/
+
+# Run-specific reconciliation reports
+/sample_output/reports/reconciliation_*.json

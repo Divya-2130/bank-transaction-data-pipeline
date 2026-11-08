@@ -1,4 +1,4 @@
 run_id,status,start_time,end_time,total_rows,clean_rows,rejected_count,failure_reason
-bbfb272b-4a72-4ef5-a4df-268320d52b53,succeeded,2026-11-08T11:08:32+00:00,2026-11-08T11:08:32+00:00,60,30,30,
-29bf82c6-8202-40c3-b993-f98eecccbe8e,succeeded,2026-11-08T11:08:32+00:00,2026-11-08T11:08:32+00:00,0,0,0,
-c1e7db5b-7860-4c0c-9e8c-cb44dc9c32d9,blocked,2026-11-08T11:08:32+00:00,2026-11-08T11:08:32+00:00,61,0,61,quality_gate: QualityGateError: Reject rate 100.00% is above configured limit 10.00%
+20d922da-a6dd-4703-946d-a3b16b100afa,succeeded,2026-11-08T11:16:44+00:00,2026-11-08T11:16:44+00:00,60,30,30,
+10e6fb57-8829-4abd-996a-562894ba7e06,succeeded,2026-11-08T11:16:44+00:00,2026-11-08T11:16:44+00:00,0,0,0,
+d8750abe-e0a2-47be-b104-2662ac58f907,blocked,2026-11-08T11:16:44+00:00,2026-11-08T11:16:44+00:00,61,0,61,quality_gate: QualityGateError: Reject rate 100.00% is above configured limit 10.00%

@@ -1,6 +1,6 @@
 {
   "normal_run": {
-    "run_id": "bbfb272b-4a72-4ef5-a4df-268320d52b53",
+    "run_id": "20d922da-a6dd-4703-946d-a3b16b100afa",
     "status": "succeeded",
     "counts": {
       "total_rows": 60,
@@ -19,19 +19,19 @@
       "reconcile": "succeeded"
     },
     "task_timings": {
-      "ingest": 0.0012627829999019013,
-      "validate_schema": 0.0001760400000421214,
-      "validate_rules": 0.0008365139999568783,
-      "quarantine": 0.0020850860000791727,
-      "transform": 0.00012361199992483307,
-      "quality_gate": 0.000105005000023084,
-      "publish": 0.001138889999992898,
-      "reconcile": 0.002615493000121205
+      "ingest": 0.029484800004865974,
+      "validate_schema": 0.0004262000438757241,
+      "validate_rules": 0.0024086000048555434,
+      "quarantine": 0.0068527000257745385,
+      "transform": 0.0004124999977648258,
+      "quality_gate": 0.0003974999999627471,
+      "publish": 0.007701099966652691,
+      "reconcile": 0.006464599980972707
     },
     "failure_reason": null
   },
   "rerun": {
-    "run_id": "29bf82c6-8202-40c3-b993-f98eecccbe8e",
+    "run_id": "10e6fb57-8829-4abd-996a-562894ba7e06",
     "status": "succeeded",
     "counts": {
       "total_rows": 0,
@@ -50,19 +50,19 @@
       "reconcile": "succeeded"
     },
     "task_timings": {
-      "ingest": 0.0009364019999793527,
-      "validate_schema": 0.00010780899992823834,
-      "validate_rules": 0.0004319279998981074,
-      "quarantine": 0.0005014099999698374,
-      "transform": 9.084400016945438e-05,
-      "quality_gate": 7.293700014088245e-05,
-      "publish": 0.0004204900001241185,
-      "reconcile": 0.0005359609999686654
+      "ingest": 0.006879399996250868,
+      "validate_schema": 0.0003510999958962202,
+      "validate_rules": 0.0017325999797321856,
+      "quarantine": 0.0013828999944962561,
+      "transform": 0.0002310999552719295,
+      "quality_gate": 0.00016529997810721397,
+      "publish": 0.0013423999771475792,
+      "reconcile": 0.002640600025188178
     },
     "failure_reason": null
   },
   "blocked_run": {
-    "run_id": "c1e7db5b-7860-4c0c-9e8c-cb44dc9c32d9",
+    "run_id": "d8750abe-e0a2-47be-b104-2662ac58f907",
     "status": "blocked",
     "counts": {
       "total_rows": 61,
@@ -81,17 +81,17 @@
       "reconcile": "skipped"
     },
     "task_timings": {
-      "ingest": 0.0008810489998722915,
-      "validate_schema": 0.00012831899994125706,
-      "validate_rules": 0.0006585670000731625,
-      "quarantine": 0.0017878680000649183,
-      "transform": 0.00010011699987444445,
-      "quality_gate": 0.00021522799988815677
+      "ingest": 0.022129599994514138,
+      "validate_schema": 0.0005512000061571598,
+      "validate_rules": 0.002452899992931634,
+      "quarantine": 0.00836059998255223,
+      "transform": 0.00037129997508600354,
+      "quality_gate": 0.002851800003554672
     },
     "failure_reason": "quality_gate: QualityGateError: Reject rate 100.00% is above configured limit 10.00%"
   },
   "label_verification": [
-    "PASS: 30 answer-key rejects match exactly for run bbfb272b-4a72-4ef5-a4df-268320d52b53"
+    "PASS: 30 answer-key rejects match exactly for run 20d922da-a6dd-4703-946d-a3b16b100afa"
   ],
   "checks": {
     "rows_in_equal_clean_plus_rejected": "PASS",
