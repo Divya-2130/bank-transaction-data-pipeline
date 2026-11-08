@@ -4,7 +4,7 @@ __pycache__/
 *.py[cod]
 *.db
 *.sqlite3
-alerts.log
+/alerts.log
 reports/reconciliation_*.json
 sample_output/*.db
 sample_output/blocked_transactions.csv

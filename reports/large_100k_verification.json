@@ -1,0 +1,31 @@
+{
+  "seed": 20261108,
+  "rows": 100000,
+  "good_rows": 95000,
+  "expected_rejects": 5000,
+  "run_id": "840a338e-84eb-4f03-90fc-d48aafcf0852",
+  "pipeline_status": "succeeded",
+  "counts": {
+    "total_rows": 100000,
+    "clean_rows": 95000,
+    "rejected_count": 5000,
+    "reject_rate": 0.05
+  },
+  "all_tasks_succeeded": true,
+  "answer_key_passed": true,
+  "answer_key_details": [
+    "PASS: 5000 answer-key rejects match exactly for run 840a338e-84eb-4f03-90fc-d48aafcf0852"
+  ],
+  "note": "The 100,000-row input, answer key, and database were generated in a temporary workspace and removed after verification.",
+  "task_timings_seconds": {
+    "ingest": 0.33788146900019456,
+    "validate_schema": 0.00021046999995633087,
+    "validate_rules": 0.5036765740001101,
+    "quarantine": 0.03173579899998913,
+    "transform": 0.030551878999858673,
+    "quality_gate": 0.00019353499988028489,
+    "publish": 0.9915434419999656,
+    "reconcile": 0.627296706999914
+  },
+  "verification_method": "python -m src.verify_labels"
+}

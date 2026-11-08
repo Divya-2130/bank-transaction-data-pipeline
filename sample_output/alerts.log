@@ -1,0 +1,1 @@
+{"timestamp": "2026-11-08T11:08:32+00:00", "severity": "CRITICAL", "run_id": "c1e7db5b-7860-4c0c-9e8c-cb44dc9c32d9", "task": "quality_gate", "message": "Reject rate 100.00% is above configured limit 10.00%"}

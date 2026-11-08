@@ -1,0 +1,108 @@
+{
+  "normal_run": {
+    "run_id": "bbfb272b-4a72-4ef5-a4df-268320d52b53",
+    "status": "succeeded",
+    "counts": {
+      "total_rows": 60,
+      "clean_rows": 30,
+      "rejected_count": 30,
+      "reject_rate": 0.5
+    },
+    "tasks": {
+      "ingest": "succeeded",
+      "validate_schema": "succeeded",
+      "validate_rules": "succeeded",
+      "quarantine": "succeeded",
+      "transform": "succeeded",
+      "quality_gate": "succeeded",
+      "publish": "succeeded",
+      "reconcile": "succeeded"
+    },
+    "task_timings": {
+      "ingest": 0.0012627829999019013,
+      "validate_schema": 0.0001760400000421214,
+      "validate_rules": 0.0008365139999568783,
+      "quarantine": 0.0020850860000791727,
+      "transform": 0.00012361199992483307,
+      "quality_gate": 0.000105005000023084,
+      "publish": 0.001138889999992898,
+      "reconcile": 0.002615493000121205
+    },
+    "failure_reason": null
+  },
+  "rerun": {
+    "run_id": "29bf82c6-8202-40c3-b993-f98eecccbe8e",
+    "status": "succeeded",
+    "counts": {
+      "total_rows": 0,
+      "clean_rows": 0,
+      "rejected_count": 0,
+      "reject_rate": 0.0
+    },
+    "tasks": {
+      "ingest": "succeeded",
+      "validate_schema": "succeeded",
+      "validate_rules": "succeeded",
+      "quarantine": "succeeded",
+      "transform": "succeeded",
+      "quality_gate": "succeeded",
+      "publish": "succeeded",
+      "reconcile": "succeeded"
+    },
+    "task_timings": {
+      "ingest": 0.0009364019999793527,
+      "validate_schema": 0.00010780899992823834,
+      "validate_rules": 0.0004319279998981074,
+      "quarantine": 0.0005014099999698374,
+      "transform": 9.084400016945438e-05,
+      "quality_gate": 7.293700014088245e-05,
+      "publish": 0.0004204900001241185,
+      "reconcile": 0.0005359609999686654
+    },
+    "failure_reason": null
+  },
+  "blocked_run": {
+    "run_id": "c1e7db5b-7860-4c0c-9e8c-cb44dc9c32d9",
+    "status": "blocked",
+    "counts": {
+      "total_rows": 61,
+      "clean_rows": 0,
+      "rejected_count": 61,
+      "reject_rate": 1.0
+    },
+    "tasks": {
+      "ingest": "succeeded",
+      "validate_schema": "succeeded",
+      "validate_rules": "succeeded",
+      "quarantine": "succeeded",
+      "transform": "succeeded",
+      "quality_gate": "failed",
+      "publish": "skipped",
+      "reconcile": "skipped"
+    },
+    "task_timings": {
+      "ingest": 0.0008810489998722915,
+      "validate_schema": 0.00012831899994125706,
+      "validate_rules": 0.0006585670000731625,
+      "quarantine": 0.0017878680000649183,
+      "transform": 0.00010011699987444445,
+      "quality_gate": 0.00021522799988815677
+    },
+    "failure_reason": "quality_gate: QualityGateError: Reject rate 100.00% is above configured limit 10.00%"
+  },
+  "label_verification": [
+    "PASS: 30 answer-key rejects match exactly for run bbfb272b-4a72-4ef5-a4df-268320d52b53"
+  ],
+  "checks": {
+    "rows_in_equal_clean_plus_rejected": "PASS",
+    "no_duplicate_transaction_ids": "PASS",
+    "no_orphan_accounts": "PASS",
+    "no_transactions_on_closed_accounts": "PASS",
+    "daily_summary_totals_match": "PASS",
+    "rerun_adds_nothing": "PASS",
+    "rejects_match_answer_key": "PASS",
+    "blocked_run_publish_skipped": "PASS",
+    "blocked_run_has_critical_alert": "PASS"
+  },
+  "overall": "PASS"
+}
