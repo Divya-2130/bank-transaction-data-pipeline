@@ -1,0 +1,21 @@
+account_id,customer_name,account_type,status,opened_date
+ACC00001,Synthetic Customer 01,savings,active,2020-01-01
+ACC00002,Synthetic Customer 02,current,closed,2020-01-01
+ACC00003,Synthetic Customer 03,savings,frozen,2020-01-01
+ACC00004,Synthetic Customer 04,current,active,2020-01-01
+ACC00005,Synthetic Customer 05,savings,active,2020-01-01
+ACC00006,Synthetic Customer 06,current,active,2020-01-01
+ACC00007,Synthetic Customer 07,savings,active,2020-01-01
+ACC00008,Synthetic Customer 08,current,active,2020-01-01
+ACC00009,Synthetic Customer 09,savings,active,2020-01-01
+ACC00010,Synthetic Customer 10,current,active,2020-01-01
+ACC00011,Synthetic Customer 11,savings,active,2020-01-01
+ACC00012,Synthetic Customer 12,current,active,2020-01-01
+ACC00013,Synthetic Customer 13,savings,active,2020-01-01
+ACC00014,Synthetic Customer 14,current,active,2020-01-01
+ACC00015,Synthetic Customer 15,savings,active,2020-01-01
+ACC00016,Synthetic Customer 16,current,active,2020-01-01
+ACC00017,Synthetic Customer 17,savings,active,2020-01-01
+ACC00018,Synthetic Customer 18,current,active,2020-01-01
+ACC00019,Synthetic Customer 19,savings,active,2020-01-01
+ACC00020,Synthetic Customer 20,current,active,2020-01-01

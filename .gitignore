@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.db
+*.sqlite3
+alerts.log
+reports/reconciliation_*.json
+sample_output/*.db
+sample_output/blocked_transactions.csv
