@@ -19,9 +19,12 @@ def _insert_transactions(conn: sqlite3.Connection, rows: list[dict]) -> int:
          r["source_file"], r["source_row_number"])
         for r, state_run_id in rows
     ]
+    # One measured optimization: send rows to SQLite in bounded batches instead
+    # of making one Python-to-SQLite call per transaction.
     inserted = 0
-    for value in values:
-        cursor = conn.execute(sql, value)
+    batch_size = 1000
+    for start in range(0, len(values), batch_size):
+        cursor = conn.executemany(sql, values[start:start + batch_size])
         inserted += cursor.rowcount
     return inserted
 
